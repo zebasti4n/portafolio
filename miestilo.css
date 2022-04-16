@@ -1,0 +1,283 @@
+body{
+position: relative;
+width: 1600px;
+height: 1100px;
+border: 8px solid #000000;
+box-sizing: border-box;
+background: #FFF8E9;
+left: 550px;
+top: 50px;
+
+
+}
+
+header{
+
+position: absolute;
+width: 649px;
+height: 800px;
+left: 200px;
+top: 200px;
+background: #BCBD8B;
+border: 8px solid #000000;
+box-sizing: border-box;
+
+}
+.sub{
+position: absolute;
+height: 800px;
+left: 125px;
+ top: 45px;
+font-family:cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 67px;
+
+color: #000000;
+}
+.sub2{
+    position: absolute;
+    height: 800px;
+    left: 25px;
+     top: 600px;
+    font-family:cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 67px;
+    
+    color: #000000;
+    }
+
+.titulo{
+    position: absolute;
+    width: 1600px;
+    height: 100px;
+    left: 500px;
+    top: 0px;
+    font-family:fantasy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 67px;
+}
+footer  {
+
+position: absolute;
+width: 1600px;
+height: 100px;
+left: -8px;
+top: 1100px;
+border: 8px solid #000000;
+box-sizing: border-box;
+background: #717744;
+
+}
+.c2{
+ position: absolute;
+width: 1600px;
+height: 100px;
+left: -8px;
+top: 20px;
+border: 8px solid #000000;
+box-sizing: border-box;
+background: #717744;
+}
+
+.fotografia{
+
+position: absolute;
+width: 419px;
+height: 396px;
+left: 120px;
+top: 180px;
+border-radius: 200px;
+
+}
+
+h1{
+
+   position: absolute;
+width: 763px;
+height: 67px;
+left: 544px;
+top: 70px;
+
+font-family: 'IM FELL Great Primer SC';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 67px;
+
+color: #000000;
+
+}
+
+h2{
+
+   position: absolute;
+   width: 732px;
+   height: 69px;
+   left: 600px;
+   top: 150px;
+   
+   font-family: 'IM FELL Double Pica';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 55px;
+   line-height: 69px;
+   /* identical to box height */
+   
+   
+   color: #000000;
+
+color: #000000;
+
+}
+
+.git{
+
+   position: absolute;
+width: 70px;
+height: 72px;
+left: 870px;
+top: 300px;
+
+
+
+}
+
+.cuadro{
+
+   position: absolute;
+   width: 381px;
+   height: 148px;
+   left: 1000px;
+   top: 650px;
+   
+   background: #5BC0BE;
+   }
+   
+  
+   
+.cuadro2{
+   
+position: absolute;
+width: 381px;
+height: 148px;
+left: 1000px;
+top: 420px;
+ background: #5BC0BE;
+ }
+           
+
+.cuadro3{
+   
+position: absolute;
+ width: 381px;
+height: 148px;
+left: 1000px;
+top: 150px;
+background: #5BC0BE;
+}
+.tex1{
+   
+    position:absolute;
+    width: 1440px;
+    height: 68px;
+    left: 100px;
+    top: 50px;  
+    font-family:Courier;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    
+    color: #000000;
+    }
+ .tex2{
+           
+ position: absolute;
+width: 1440px;
+height: 68px;
+left: 100px;
+top: 50px;
+font-family:Courier;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 33px;
+color: #ffff;
+
+ }
+                          
+.tex3{                 
+ position: absolute;
+ width: 1440px;
+ height: 68px;
+left: 150px;
+top: 50px;                      
+font-family:Courier;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 33px;
+color: #ffff;
+ }
+
+                       
+   .navegacion{
+       width: 1000px;
+       margin: 30px auto;
+       background: #fff;
+   }
+   
+   .navegacion ul{
+       list-style: none;
+   }
+   
+   .menu > li{
+       position: relative;
+       display: inline-block;
+   }
+   
+   .menu > li > a{
+       display: block;
+       padding: 15px 20px;
+       color: #353535;
+       font-family: 'Open sans';
+       text-decoration: none;
+   }
+   
+   .menu li a:hover{
+       color: #ED1C24;
+       transition: all .3s;
+   }
+   
+   /* Submenu*/
+   
+   .submenu{
+       position: absolute;
+       background: #D0D38F;
+       width: 20%;
+       left: -110px;
+       visibility: hidden;
+       opacity: 0;
+       transition: opacity 1.5s;
+   }
+   
+   .submenu li a{
+       display: block;
+       padding: 15px;
+       color: rgb(12, 4, 4);
+       font-family: 'Open sans';
+       text-decoration: none;
+   }
+   
+   .menu li:hover .submenu{
+       visibility: visible;
+       opacity: 1;
+   }
+
+
